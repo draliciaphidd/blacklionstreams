@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Lion Streams — Game On</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 30px;
+        }
+        audio {
+            margin-top: 20px;
+            outline: none;
+        }
+        p {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Black Lion Streams — Game On</h1>
+
+    <p>Click play to start the 3-minute gameplay audio:</p>
+    <audio controls autoplay>
+        <source src="Game%20On.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+</body>
+</html>
